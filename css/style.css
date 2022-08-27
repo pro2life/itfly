@@ -1172,4 +1172,74 @@ body {
   padding-left: 70px;
 }
 
+@media (max-width: 1024px) {
+  .container {
+    width: 1000px;
+  }
+  .img {
+    width: 949px;
+  }
+  .Us__rect__rect2 {
+    width: 855px;
+  }
+  .Us__rect__rect2__Text1 {
+    font-size: 20px;
+  }
+  .Us__rect__rect2__Text2 {
+    width: 681px;
+    font-size: 18px;
+  }
+  .img2 {
+    width: 949px;
+  }
+  .Team__start {
+    width: 288px;
+    font-size: 35px;
+  }
+  .Team__rect__rect2 {
+    width: 855px;
+  }
+  .Team__rect__Text__A1__A2__A3 {
+    width: 873px;
+    font-size: 25px;
+  }
+  .Nuri {
+    width: 949px;
+  }
+  .Nuri__rect {
+    width: 855px;
+  }
+  .Nuri__rect__Text__A1__A2__A3 {
+    width: 887px;
+    font-size: 25px;
+  }
+  .ibro {
+    width: 949px;
+  }
+  .ibro__rect {
+    width: 855px;
+  }
+  .ibro__rect__Text__A1__A2__A3 {
+    width: 887px;
+    font-size: 25px;
+  }
+  .gul {
+    width: 949px;
+  }
+  .gul__rect {
+    width: 855px;
+  }
+  .imgfone {
+    width: 949px;
+  }
+  .port__A1 {
+    margin-left: -10px;
+    width: 225px;
+    font-size: 39px;
+  }
+  .port__A1__A2 {
+    width: 855px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
