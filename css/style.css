@@ -1157,6 +1157,18 @@ body {
   color: #FFFFFF;
 }
 
+.logo {
+  display: none;
+}
+
+.Burger {
+  display: none;
+}
+
+.BurgerMenu {
+  display: none;
+}
+
 .Foot__A2 {
   width: 43px;
   font-family: "Montserrat", sans-serif;
@@ -1239,6 +1251,854 @@ body {
   }
   .port__A1__A2 {
     width: 855px;
+  }
+  .Cont {
+    width: 881px;
+  }
+  .Cont__rect {
+    width: 844px;
+  }
+  .Foot {
+    width: 869px;
+  }
+  .fot {
+    width: 866px;
+  }
+  .Set__img1 {
+    width: 276px;
+  }
+  .Set__img2 {
+    width: 276px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 960px;
+  }
+  .img {
+    width: 920px;
+  }
+  .Us__Ux {
+    width: 84px;
+    font-size: 30px;
+  }
+  .img2 {
+    width: 920px;
+  }
+  .Team__start {
+    width: 279px;
+  }
+  .Nuri {
+    width: 920px;
+  }
+  .ibro {
+    width: 920px;
+  }
+  .gul {
+    width: 920px;
+  }
+  .imgfone {
+    width: 920px;
+  }
+  .port__A1__A2__A3 {
+    margin: -523px 0 0 -596px;
+  }
+  .port__A1__A2__A3__A4 {
+    margin: 612px 0 0 599px;
+  }
+  .Cont {
+    width: 855px;
+  }
+  .Cont {
+    margin: 160px 0 0 46px;
+  }
+  .Foot {
+    width: 814px;
+  }
+  .fot {
+    width: 815px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 720px;
+  }
+  .head {
+    display: none;
+  }
+  .logo {
+    display: block;
+  }
+  .BurgerLiner {
+    width: 30px;
+    height: 3px;
+    margin: 5px;
+    background: black;
+  }
+  .BurgerMenu {
+    display: block;
+  }
+  .clickBurger {
+    margin-left: -55px;
+    position: absolute;
+    transition: all 0.5s linear;
+  }
+  .clickMini {
+    width: 150px;
+    height: 177px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background: white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  .clickMe {
+    text-decoration: none;
+    color: black;
+    font-family: "Orbitron", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  #click:checked ~ .clickBurger {
+    margin-left: 300px;
+  }
+  .click_input {
+    display: none;
+  }
+  .Burger {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+  }
+  .img {
+    width: 680px;
+  }
+  .Us__Ux {
+    width: 64px;
+    font-size: 23px;
+  }
+  .Us__rect__rect2 {
+    width: 635px;
+  }
+  .Us__rect__rect2__img1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .Us__rect__rect2__img1__A1 {
+    width: 100px;
+  }
+  .Us__rect__rect2__img1__A1__A2 {
+    width: 300px;
+  }
+  .Us__rect__rect2__img1__A1__A2__A3 {
+    width: 100px;
+  }
+  .Us__rect__rect2__Text1 {
+    font-size: 15px;
+  }
+  .Us__rect__rect2__img2 {
+    margin-left: 20px;
+    margin-top: 80px;
+  }
+  .Us__rect__rect2__img2__A1 {
+    width: 100px;
+  }
+  .Us__rect__rect2__img2__A1__A2 {
+    width: 300px;
+  }
+  .Us__rect__rect2__img2__A1__A2__A3 {
+    width: 100px;
+  }
+  .Us__rect__rect2__Text2 {
+    width: 400px;
+    font-size: 21px;
+  }
+  .Us__rect__rect2__Text2 {
+    margin: 52px 0 0 120px;
+  }
+  .img2 {
+    width: 680px;
+  }
+  .Team__start {
+    width: 207px;
+  }
+  .Team__start {
+    font-size: 25px;
+  }
+  .Team__rect__rect2 {
+    width: 635px;
+  }
+  .Team__rect__rect2__img1__A1__A2 {
+    width: 281px;
+    height: 374px;
+  }
+  .Team__rect__rect2__img1__A1__A2__A3 {
+    width: 331px;
+  }
+  .Team__rect__rect2__img1__A1 {
+    width: 321px;
+  }
+  .Team__rect__Text__A1__A2__A3 {
+    width: 663px;
+    font-size: 18px;
+  }
+  .Nuri {
+    width: 680px;
+  }
+  .Nuri__rect {
+    width: 635px;
+  }
+  .Nuri__rect__img__A1__A2 {
+    width: 281px;
+    height: 374px;
+  }
+  .Nuri__rect__Text__A1__A2__A3 {
+    width: 694px;
+    font-size: 19px;
+  }
+  .ibro {
+    width: 680px;
+  }
+  .ibro__rect {
+    width: 635px;
+  }
+  .ibro__rect__img__A1 {
+    width: 150px;
+  }
+  .ibro__rect__img__A1__A2 {
+    width: 250px;
+    height: 360px;
+  }
+  .ibro__rect__img__A1__A2__A3 {
+    width: 150px;
+  }
+  .ibro__rect__Text__A1__A2__A3 {
+    width: 701px;
+    font-size: 19px;
+  }
+  .ibro__rect__Text {
+    height: 347px;
+  }
+  .gul {
+    width: 680px;
+  }
+  .gul__rect {
+    width: 635px;
+  }
+  .gul__rect__img__A1__A2 {
+    width: 250px;
+    height: 360px;
+  }
+  .gul__rect__Text__A1__A2__A3 {
+    width: 670px;
+    font-size: 20px;
+  }
+  .imgfone {
+    width: 680px;
+    height: 680px;
+  }
+  .port__A1 {
+    width: 175px;
+    font-size: 32px;
+  }
+  .port__A1__A2 {
+    width: 635px;
+    height: 530px;
+  }
+  .port__A1__A2__A3 {
+    margin: -383px 0 0 -360px;
+  }
+  .port__A1__A2__A3 {
+    width: 345.95px;
+    height: 350.12px;
+  }
+  .port__A1__A2__A3__A4 {
+    margin: 506px 0 0 423px;
+  }
+  .port__A1__A2__A3__A4 {
+    width: 350.74px;
+    height: 350.9px;
+  }
+  .Set {
+    width: 680px;
+  }
+  .Set__img1 {
+    width: 200px;
+    padding-left: 45px;
+  }
+  .Set__img2 {
+    width: 195px;
+    padding-right: 10px;
+  }
+  .Set__one {
+    font-size: 30px;
+  }
+  .Cont {
+    width: 635px;
+    height: 1150px;
+  }
+  .Cont__rect__Text__M1 {
+    padding-left: 30px;
+  }
+  .Cont__rect {
+    width: 535px;
+    flex-direction: column;
+    height: 950px;
+  }
+  .Cont__rect__Text {
+    align-items: center;
+  }
+  .Cont__rect__Email__B1 {
+    align-items: center;
+    padding-left: 12px;
+  }
+  .Cont__rect__Email {
+    padding-left: 0;
+  }
+  .fot {
+    width: 569px;
+  }
+  .Foot__A2 {
+    width: 300px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    width: 520px;
+  }
+  .img {
+    width: 472px;
+  }
+  .Us__Ux {
+    width: 62px;
+    font-size: 21px;
+  }
+  .Us__rect__rect2__img1__A1 {
+    width: 80px;
+  }
+  .Us__rect__rect2__img1__A1__A2 {
+    width: 250px;
+  }
+  .Us__rect__rect2__img1__A1__A2__A3 {
+    width: 90px;
+  }
+  .Us__rect__rect2__img2__A1__A2 {
+    width: 250px;
+  }
+  .Us__rect__rect2__img2 {
+    margin-left: 14px;
+  }
+  .Us__rect__rect2__img2__A1 {
+    width: 54px;
+  }
+  .Us__rect__rect2__img2__A1__A2__A3 {
+    width: 60px;
+  }
+  .Us__rect__rect2__Text2 {
+    margin: 52px 0 0 89px;
+  }
+  .Us__rect__rect2__Text2 {
+    width: 272px;
+    font-size: 20px;
+  }
+  .Us__rect__rect2__img2 {
+    margin-left: 19px;
+  }
+  .Us__rect__rect2 {
+    width: 440px;
+  }
+  .Us__rect__rect2__Text1 {
+    font-size: 15px;
+  }
+  .Us__rect__rect2__Text1 {
+    padding-left: 13px;
+    width: 420px;
+  }
+  .img2 {
+    width: 472px;
+  }
+  .Team__start {
+    font-size: 17px;
+  }
+  .Team__start {
+    width: 156px;
+  }
+  .Team__rect__rect2 {
+    width: 440px;
+  }
+  .Team__rect__rect2__img1__A1__A2 {
+    width: 180px;
+    height: 290px;
+  }
+  .Team__rect__rect2__img1__A1__A2 {
+    margin-top: -180px;
+  }
+  .Team__rect__rect2__img1__A1 {
+    width: 198px;
+  }
+  .Team__rect__rect2__img1__A1__A2__A3 {
+    width: 198px;
+  }
+  .Team__rect__Text__A1 {
+    margin: 68px 0 0 -70px;
+  }
+  .Team__rect__Text__A1__A2 {
+    margin: 50px 0 50px -80px;
+    width: 436px;
+    font-size: 17px;
+  }
+  .Team__rect__btn {
+    padding-top: 138px;
+  }
+  .Team__rect__Text__A1__A2__A3 {
+    width: 442px;
+    font-size: 22px;
+  }
+  .Nuri {
+    width: 472px;
+  }
+  .Nuri__rect {
+    width: 440px;
+  }
+  .Nuri__rect__img__A1 {
+    width: 100px;
+  }
+  .Nuri__rect__img__A1__A2__A3 {
+    width: 100px;
+  }
+  .Nuri__rect__img__A1__A2 {
+    width: 180px;
+    height: 290px;
+  }
+  .Nuri__rect__Text__A1__A2__A3 {
+    width: 457px;
+    font-size: 23px;
+    margin: 55px 0 0 0;
+  }
+  .Nuri__rect__Text__A1__A2 {
+    margin-top: 50px;
+  }
+  .Nuri__rect__btn {
+    padding-top: 110px;
+  }
+  .ibro {
+    width: 472px;
+  }
+  .ibro__rect {
+    width: 440px;
+  }
+  .ibro__rect__img__A1__A2 {
+    width: 180px;
+    height: 290px;
+  }
+  .ibro__rect__img__A1 {
+    width: 100px;
+  }
+  .ibro__rect__img__A1__A2__A3 {
+    width: 100px;
+  }
+  .ibro__rect__Text__A1__A2__A3 {
+    width: 431px;
+    font-size: 23px;
+  }
+  .gul {
+    width: 472px;
+  }
+  .gul__rect {
+    width: 440px;
+  }
+  .gul__rect__img__A1__A2 {
+    width: 180px;
+    height: 290px;
+    margin-top: -223px;
+  }
+  .gul__rect__img__A1 {
+    background: none;
+  }
+  .gul__rect__img__A1__A2__A3 {
+    background: none;
+  }
+  .gul__rect__Text__A1__A2__A3 {
+    width: 428px;
+  }
+  .imgfone {
+    width: 472px;
+    height: 630px;
+  }
+  .port__A1 {
+    width: 125px;
+    font-size: 22px;
+  }
+  .port__A1__A2 {
+    width: 440px;
+  }
+  .port__A1__A2__A3 {
+    width: 230.95px;
+    height: 228.12px;
+  }
+  .port__A1__A2__A3 {
+    margin: -390px 0 0 -280px;
+  }
+  .port__A1__A2__A3__A4 {
+    width: 276.74px;
+    height: 286.9px;
+    margin: 506px 0 0 288px;
+  }
+  .Set__img1 {
+    width: 140px;
+    padding-left: 290px;
+  }
+  .Set__img2 {
+    width: 140px;
+    padding-right: 481px;
+  }
+  .Set__one {
+    font-size: 23px;
+    padding-left: 1px;
+  }
+  .Cont {
+    margin: 160px 0 0 25px;
+  }
+  .Cont {
+    width: 472px;
+    height: 1150px;
+  }
+  .Cont__rect {
+    width: 440px;
+  }
+  .Foot {
+    padding: 30px 0 0 31px;
+  }
+  .fot {
+    width: 441px;
+    padding-left: 33px;
+  }
+  .Foot__A2 {
+    width: 416px;
+  }
+}
+@media (max-width: 451px) {
+  .container {
+    width: 400px;
+  }
+  .Burger {
+    justify-content: space-around;
+  }
+  .img {
+    display: none;
+  }
+  .Us__rect__rect2 {
+    width: 370px;
+  }
+  .Us__rect__rect2__img1__A1 {
+    display: none;
+  }
+  .Us__rect__rect2__img1__A1__A2__A3 {
+    display: none;
+  }
+  .Us__rect__rect2__img1__A1__A2 {
+    margin-top: 40px;
+  }
+  .Us__rect__rect2__Text1 {
+    padding-left: 56px;
+    padding-top: 30px;
+    width: 259px;
+  }
+  .Us__rect__rect2__img2__A1 {
+    display: none;
+  }
+  .Us__rect__rect2__img2__A1__A2__A3 {
+    display: none;
+  }
+  .Us__rect__rect2__Text2 {
+    margin: 31px 0 0 59px;
+  }
+  .img2 {
+    display: none;
+  }
+  .Team__rect__rect2 {
+    width: 370px;
+  }
+  .Team__rect__rect2__img1__A1 {
+    display: none;
+  }
+  .Team__rect__rect2__img1__A1__A2__A3 {
+    display: none;
+  }
+  .Team__rect__rect2__img1__A1__A2 {
+    margin-top: -44px;
+  }
+  .Team__rect__Text {
+    margin-top: 7px;
+  }
+  .Team__rect__Text__A1__A2 {
+    width: 346px;
+    font-size: 13px;
+  }
+  .Team__rect__btn {
+    padding-top: 187px;
+  }
+  .Nuri {
+    border: none;
+  }
+  .Nuri__rect {
+    width: 370px;
+    margin-left: -114px;
+  }
+  .Nuri__rect__img__A1 {
+    display: none;
+  }
+  .Nuri__rect__img__A1__A2__A3 {
+    display: none;
+  }
+  .Nuri__rect__btn {
+    padding-top: 186px;
+  }
+  .Nuri__rect__Text__A1__A2__A3 {
+    width: 462px;
+  }
+  .ibro {
+    border: none;
+  }
+  .ibro__rect {
+    width: 370px;
+    margin-left: -114px;
+  }
+  .ibro__rect__img__A1 {
+    display: none;
+  }
+  .ibro__rect__img__A1__A2__A3 {
+    display: none;
+  }
+  .ibro__rect__btn {
+    margin-left: -124px;
+    margin-top: -129px;
+  }
+  .ibro__rect__Text__A1__A2__A3 {
+    width: 442px;
+    font-size: 22px;
+  }
+  .gul {
+    border: none;
+  }
+  .gul__rect {
+    width: 370px;
+    margin-left: -114px;
+  }
+  .gul__rect__img__A1 {
+    display: none;
+  }
+  .gul__rect__img__A1__A2__A3 {
+    display: none;
+  }
+  .gul__rect__img__A1__A2 {
+    margin-top: -36px;
+  }
+  .gul__rect__Text__A1 {
+    padding-top: 56px;
+  }
+  .gul__rect__Text {
+    height: 326px;
+  }
+  .gul__rect__Text__A1__A2__A3 {
+    width: 353px;
+    font-size: 20px;
+  }
+  .gul__rect__btn {
+    margin-top: 74px;
+  }
+  .imgfone {
+    display: none;
+  }
+  .port__A1__A2__A3 {
+    display: none;
+  }
+  .port__A1__A2__A3__A4 {
+    display: none;
+  }
+  .port__A1__A2 {
+    width: 370px;
+  }
+  .Set__img1 {
+    display: none;
+  }
+  .Set__img2 {
+    display: none;
+  }
+  .Set__one {
+    margin-left: -158px;
+  }
+  .web__B1 {
+    margin-top: 100px;
+  }
+  .web__B1 {
+    padding-top: 369px;
+  }
+  .web {
+    margin-top: -276px;
+  }
+  .css {
+    justify-content: space-between;
+    padding-left: 17px;
+  }
+  .Cont {
+    width: 370px;
+    height: 1150px;
+    margin: 160px 0 0 16px;
+  }
+  .Cont__rect {
+    width: 333px;
+  }
+  .Cont__rect__Email__A1 {
+    width: 312px;
+  }
+  .Cont__rect__Email__B1__B2 {
+    width: 300px;
+    margin-left: -14px;
+  }
+  .Cont__rect__Email__B1__B2__B3 {
+    width: 300px;
+    margin-left: -14px;
+  }
+  .Foot__A2 {
+    width: 532px;
+  }
+  .fot {
+    width: 331px;
+  }
+}
+@media (max-width: 420px) {
+  .container {
+    width: 380px;
+  }
+}
+@media (max-width: 380px) {
+  .container {
+    width: 350px;
+  }
+  .Us__rect__rect2 {
+    width: 320px;
+  }
+  .Us__rect__rect2__Text2 {
+    margin: 31px 0 0 34px;
+  }
+  .Team__start {
+    padding: 0 0 0 44px;
+  }
+  .Team__rect__rect2 {
+    width: 320px;
+  }
+  .Team__rect__Text__A1 {
+    width: 316px;
+    font-size: 28px;
+  }
+  .Team__rect__Text__A1__A2 {
+    width: 279px;
+    font-size: 14px;
+  }
+  .Team__rect__Text__A1__A2__A3 {
+    width: 321px;
+    font-size: 16px;
+    margin-left: -50px;
+  }
+  .Nuri__rect {
+    width: 320px;
+    margin-left: -155px;
+  }
+  .Nuri__rect__Text__A1 {
+    width: 391px;
+    font-size: 22px;
+  }
+  .Nuri__rect__Text__A1__A2 {
+    width: 332px;
+    font-size: 14px;
+  }
+  .Nuri__rect__Text__A1__A2 {
+    margin-left: 28px;
+  }
+  .Nuri__rect__Text__A1__A2__A3 {
+    width: 301px;
+  }
+  .Nuri__rect__Text__A1__A2__A3 {
+    width: 308px;
+    font-size: 23px;
+    margin: 55px 0 0 -60px;
+  }
+  .ibro__rect {
+    width: 320px;
+    margin-left: -155px;
+  }
+  .ibro__rect__Text {
+    height: 347px;
+    padding-left: 26px;
+  }
+  .ibro__rect__Text__A1__A2__A3 {
+    width: 281px;
+    font-size: 22px;
+    margin-left: -100px;
+  }
+  .ibro__rect__btn {
+    margin-left: -153px;
+  }
+  .gul__rect {
+    width: 320px;
+    margin-left: -155px;
+  }
+  .gul__rect__Text {
+    padding-left: 20px;
+  }
+  .gul__rect__Text__A1__A2__A3 {
+    padding-left: 64px;
+  }
+  .port__A1__A2 {
+    width: 320px;
+  }
+  .web {
+    padding-left: 23px;
+  }
+  .css__B1 {
+    padding-left: 108px;
+  }
+  .Cont {
+    width: 320px;
+  }
+  .Cont__rect {
+    width: 269px;
+  }
+  .Cont__rect__Text__h1 {
+    width: 224px;
+    font-size: 18px;
+  }
+  .Cont__rect__Text__h1__h4 {
+    width: 208px;
+    font-size: 16px;
+  }
+  .Cont__rect__Email__A1 {
+    width: 230px;
+    font-size: 18px;
+  }
+  .Cont__rect__Email__B1__B2 {
+    width: 229px;
+  }
+  .Cont__rect__Email__B1__B2__B3 {
+    width: 229px;
+    height: 131px;
+  }
+  .Cont__rect__Email__B1__B2__B3__B4 {
+    width: 198px;
+  }
+  .Foot__A2 {
+    width: 581px;
+  }
+  .fot {
+    width: 277px;
   }
 }
 
